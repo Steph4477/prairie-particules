@@ -1,0 +1,19 @@
+{
+  "name": "my-vue-app",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "homepage": "https://steph4477.github.io/prairie-particules/",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.0.0",
+    "typescript": "^5.0.2",
+    "vite": "^4.4.5"
+  }
+}
